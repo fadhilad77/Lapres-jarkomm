@@ -87,4 +87,49 @@ Lalu, pusatkan perhatian pada "STOR" yang terdapat pada info paket yang terekam 
 
    ![jawaban soal 6](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-21%20at%2014.02.05.png)
 
-   
+
+7. Berapa jumlah packet yang menuju IP 184.87.193.88?
+   nc 10.21.78.111 6565
+
+   Solving: Untuk menjawab pertanyaan tersebut dengan cara memasukkan filter dengan keyword (ip.src==184.87.193.88) sehingga dapat mencari jumlah packet didalamnya seperti pada gambar berikut
+
+   ![soal7](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.24.38.png)
+
+   sehingga dapat menjawab pertanyaan dan mendapat flag sebagai berikut
+
+   ![jawaban soal 7](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.24.46.png)
+
+
+8. Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!
+   nc 10.21.78.111 7171
+
+   Solving: untuk memfilter kueri menuju port 80 dapat menggunakan keyword ini tcp.dstport == 80 || udp.dstport == 80 sehingga didapatkan sebagai berikut
+
+   ![soal8](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.34.23.png)
+
+   sehingga dapat menjawab pertanyaan dan mendapat flag sebagai berikut
+
+   ![jawaban soal 8](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.34.30.png)
+
+
+9. Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+   nc 10.21.78.111 7272
+
+   Solving: untuk memfilter kueri menuju alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34 dapat menggunakan keyword ini lip.src    == 10.51.40.1 && ip.dst != 10.39.55.34 sehingga didapatkan sebagai berikut
+
+   ![soal9](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.37.17.png)
+
+   sehingga dapat menjawab pertanyaan dan mendapat flag sebagai berikut
+
+   ![jawaban soal 9](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.37.26.png)
+
+10. Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
+    nc 10.21.78.111 7373
+
+   Solving: Untuk menjawab pertanyaan tersebut yang harus dilakukan adalah memfilter dengan keyword Telnet kemudian mencari pada bagian    password kemudian difollow untuk mendapatkan Usernama dan Password yang dibutuhkan kemudian jawab pertanyaan sesuai format sebagai berikut
+
+   ![soal10](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-21%20at%2013.36.47.png)
+
+   sehingga dapat menjawab pertanyaan dan mendapat flag sebagai berikut
+
+   ![jawaban soal 10](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-21%20at%2013.36.55.png)
