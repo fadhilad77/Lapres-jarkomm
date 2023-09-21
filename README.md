@@ -48,3 +48,21 @@ Lalu, pusatkan perhatian pada "STOR" yang terdapat pada info paket yang terekam 
    sehingga dapat ditemukan jawaban dari pertanyaan tersebut dan ditemukan flag nya sebagai berikut
 
    ![jawaban soal 4](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-21%20at%2015.44.48.png)
+
+5. Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.
+
+   Solving:
+   pada soal ini diberikan sebuah zipfile yang terkunci cara membukanya adalah temukan password pada wireshark kemudia didecode menggunakan base 64 seperti berikut
+
+   ![soal5](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.16.42.png)
+   ![soal5](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.17.25.png)
+   ![soal5](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.17.09.png)
+
+   setelah itu didapatkan nc 10.21.78.111 11111 kemudian didapatkan pertanyaan yang akan dijawab menggunakan wireshark yaitu berapa banyak port, port smtp, dan alamat ip nya dapat dilihat berikut
+
+   ![jawaban soal 5](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.18.06.png)
+   ![jawaban soal 5](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.18.25.png)
+
+   sehingga didapatkan flag sebagai berikut
+   
+   ![jawaban soal 5](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.18.54.png)
