@@ -35,3 +35,16 @@ Lalu, pusatkan perhatian pada "STOR" yang terdapat pada info paket yang terekam 
    sehingga dapat ditemukan jawaban dari pertanyaan tersebut dan ditemukan flag nya sebagai berikut
 
    ![jawaban soal 3](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.04.06.png)
+
+
+4. Berapa nilai checksum yang didapat dari header pada paket nomor 130?
+   nc 10.21.78.111 13591
+
+   Solving:
+   Untuk mendapat nilai checksum dari paket nomor 130 dengan cara mencari paket 130 dan melihat pada bagian checksum seperti paket berikut
+
+   ![soal4](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-21%20at%2015.44.43.png)
+
+   sehingga dapat ditemukan jawaban dari pertanyaan tersebut dan ditemukan flag nya sebagai berikut
+
+   ![jawaban soal 4](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-21%20at%2015.44.48.png)
