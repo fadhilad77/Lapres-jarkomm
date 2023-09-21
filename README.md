@@ -5,7 +5,7 @@ Wireshark
    nc 10.21.78.111 12345
    Solving :
    Masuk ke dalam netcat dan perhatikan soal yang diinginkan! Berikutnya analisis lewat file packet capture yang diberikan.
-![Windows PowerShell 9_21_2023 9_55_19 AM](https://github.com/yogs14/Jarkom-jarkoman/assets/121499055/29dcc7d7-0bb1-4949-9db8-75c4d26feb05)
+![Windows PowerShell 9_21_2023 9_55_19 AM](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-21%20at%2013.55.20.png)
 
 Pada wireshark lakukan filter dengan keyword "FTP" karena clue yang diberikan oleh soal adalah aktivitas yang terjadi pada protokol FTP.
 Lalu, pusatkan perhatian pada "STOR" yang terdapat pada info paket yang terekam karena diduga kuat itu merupakan aktivitas yang dimaksud.
