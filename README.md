@@ -66,3 +66,25 @@ Lalu, pusatkan perhatian pada "STOR" yang terdapat pada info paket yang terekam 
    sehingga didapatkan flag sebagai berikut
    
    ![jawaban soal 5](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.18.54.png)
+
+6. Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+
+   Solving:  Seorang anak bernama Udin Berteman dengan Slamet yang merupakan seorang penggemar
+   film detektif. sebagai Teman yang baik, Ia selalu mengajak slamet untuk bermain valorant
+   bersama. suatu malam, Terjadi sebuah hal yang tak terduga. ketika Udin mereka membuka
+   game tersebut, laptop udin menunjukkan sebuah field text dan aSebuah kode Invalid
+   bertuliskan "server SOURCE ADDRESS 7812 is invalid".
+   ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif
+   slamet pun bergejolak.
+   bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+   ➔ 104.18.14.101 → 0-18 → 10 4 18 14 10 1 → J D R N J A
+
+    seperti pada gambar berikut:
+
+   ![soal6](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-21%20at%2014.01.59.png)
+
+   sehingga dapat menjawab pertanyaan dan mendapat flag sebagai berikut
+
+   ![jawaban soal 6](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-21%20at%2014.02.05.png)
+
+   
