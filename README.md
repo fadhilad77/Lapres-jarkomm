@@ -18,3 +18,15 @@ Lalu, pusatkan perhatian pada "STOR" yang terdapat pada info paket yang terekam 
    Masuk ke dalam packet capture dan karena soal menginginkan server maka ikuti protokol http dari file pcap tersebut karena server pasti menempel pada protokol http
 
 ![Wireshark · Follow HTTP Stream (tcp stream eq 2) · Wi-Fi 9_18_2023 8_02_15 PM](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2021.30.30.png)
+
+3. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
+   nc 10.21.78.111 13590
+   Solving:
+   Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
+   pada wireshark lakukan filter dengan keyword (ip.src == 239.255.255.250 || ip.dst == 239.255.255.250) && (udp.port == 3702 || tcp.port      == 3702) sehingga ditemukan ini
+
+   ![soal 3](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.03.52.png)
+
+   sehingga dapat ditemukan jawaban dari pertanyaan tersebut dan ditemukan flag nya sebagai berikut
+
+   ![jawaban soal 3](https://github.com/fadhilad77/Lapres-jarkomm/blob/main/Screen%20Shot%202023-09-20%20at%2022.04.06.png)
